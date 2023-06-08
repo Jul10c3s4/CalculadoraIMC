@@ -17,7 +17,8 @@ const Form = ()=>{
                 placeholder='Ex: 60.30'
                 keyboardType='numeric'
                 />
-                <Button title='CALCULAR' />
+
+                <Button title='CALCULAR' style={styles.buttoncalc}/>
             </View>
         </View>
     )
